@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+* {
+    color: white;
+}
+
+h1 {
+    font-size: 350%;
+    padding-top: 30px;
+}
+
+header {
+    text-align: center;
+    background-image: radial-gradient(closest-side ,#61605e, black);
+    height: 260px;
+}
+
+button {
+    background-color: rgba(87, 87, 87, 0.253);
+    padding: 5px;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: #77777783;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.555), inset -5px -5px 10px rgba(0, 0, 0, 0.562) ;
+}
