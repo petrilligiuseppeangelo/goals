@@ -6,6 +6,10 @@ body {
     color: white;
 }
 
+input {
+    color: black;
+}
+
 h1 {
     font-size: 350%;
     padding-top: 30px;
@@ -25,4 +29,12 @@ button {
 button:hover {
     background-color: #77777783;
     box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.555), inset -5px -5px 10px rgba(0, 0, 0, 0.562) ;
+}
+section {
+    background-image: radial-gradient(closest-side ,#61605e, black);
+    float: left;
+}
+p {
+    font-size: 30px;
+    font-weight: bolder;
 }
